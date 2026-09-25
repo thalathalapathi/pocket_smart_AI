@@ -1,0 +1,1069 @@
+{
+  "sai": [
+    {
+      "id": "rec-050a78f6",
+      "timestamp": "Sep 25, 2026, 11:29 PM",
+      "recommendation_type": "jewelry",
+      "input_summary": "Occasion: Birthday | With outfit image: No",
+      "result_summary": "Budget: \u20b95,000 | Remaining: \u20b9750",
+      "full_input": {
+        "total_budget": 5000.0,
+        "occasion": "Birthday",
+        "preferences": "Minimalist silver or rose gold"
+      },
+      "full_result": {
+        "total_budget": 5000.0,
+        "outfit_analysis": {
+          "colors": [
+            "Golden Hue",
+            "Classic Blue",
+            "Subtle White"
+          ],
+          "style": "Contemporary Ethnic",
+          "formality": "Semi-Formal to Festive"
+        },
+        "jewelry_recommendations": [
+          {
+            "item_type": "Necklace / Pendant",
+            "name": "Delicate 18K Gold Plated Solitaire Pendant & Chain",
+            "description": "Exquisite zircon-studded pendant necklace, styled to complement your outfit neckline for Birthday.",
+            "style": "Contemporary Ethnic / Minimalist",
+            "estimated_price": 1600.0,
+            "search_terms": "gold plated solitaire pendant necklace for Birthday",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=gold+plated+solitaire+pendant+necklace+for+Birthday",
+              "flipkart": "https://www.flipkart.com/search?q=gold+plated+solitaire+pendant+necklace+for+Birthday",
+              "bluestone": "https://www.bluestone.com/search.html?query=gold+plated+solitaire+pendant+necklace+for+Birthday",
+              "tanishq": "https://www.tanishq.co.in/search?q=gold+plated+solitaire+pendant+necklace+for+Birthday",
+              "caratlane": "https://www.caratlane.com/search?q=gold+plated+solitaire+pendant+necklace+for+Birthday",
+              "melorra": "https://www.melorra.com/search?q=gold+plated+solitaire+pendant+necklace+for+Birthday",
+              "meesho": "https://www.meesho.com/search?q=gold+plated+solitaire+pendant+necklace+for+Birthday"
+            }
+          },
+          {
+            "item_type": "Earrings / Studs",
+            "name": "Classic Pear-Cut Crystal Drop Earrings",
+            "description": "Lightweight hypoallergenic dangling earrings that catch the light elegantly without overpowering the face.",
+            "style": "Graceful Statement",
+            "estimated_price": 1400.0,
+            "search_terms": "crystal drop earrings pear cut Birthday",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=crystal+drop+earrings+pear+cut+Birthday",
+              "flipkart": "https://www.flipkart.com/search?q=crystal+drop+earrings+pear+cut+Birthday",
+              "bluestone": "https://www.bluestone.com/search.html?query=crystal+drop+earrings+pear+cut+Birthday",
+              "tanishq": "https://www.tanishq.co.in/search?q=crystal+drop+earrings+pear+cut+Birthday",
+              "caratlane": "https://www.caratlane.com/search?q=crystal+drop+earrings+pear+cut+Birthday",
+              "melorra": "https://www.melorra.com/search?q=crystal+drop+earrings+pear+cut+Birthday",
+              "meesho": "https://www.meesho.com/search?q=crystal+drop+earrings+pear+cut+Birthday"
+            }
+          },
+          {
+            "item_type": "Bracelet / Bangle",
+            "name": "Sleek Adjustable Tennis Cuff Bracelet",
+            "description": "Modern silver-toned cuff with micro-pave cubic zirconia stones, perfect for day-to-night transitions.",
+            "style": "Contemporary Chic",
+            "estimated_price": 1250.0,
+            "search_terms": "adjustable tennis bracelet cubic zirconia",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=adjustable+tennis+bracelet+cubic+zirconia",
+              "flipkart": "https://www.flipkart.com/search?q=adjustable+tennis+bracelet+cubic+zirconia",
+              "bluestone": "https://www.bluestone.com/search.html?query=adjustable+tennis+bracelet+cubic+zirconia",
+              "tanishq": "https://www.tanishq.co.in/search?q=adjustable+tennis+bracelet+cubic+zirconia",
+              "caratlane": "https://www.caratlane.com/search?q=adjustable+tennis+bracelet+cubic+zirconia",
+              "melorra": "https://www.melorra.com/search?q=adjustable+tennis+bracelet+cubic+zirconia",
+              "meesho": "https://www.meesho.com/search?q=adjustable+tennis+bracelet+cubic+zirconia"
+            }
+          }
+        ],
+        "remaining_budget": 750.0,
+        "styling_tips": [
+          "Balance your jewelry focal point: when wearing prominent earrings, keep neckpieces subtle and understated.",
+          "Match the metallic undertones with your outfit details (gold tones for warm palettes, silver/platinum for cooler shades).",
+          "Choose lightweight, anti-tarnish jewelry with skin-friendly rhodium or gold plating for comfortable prolonged wear."
+        ]
+      }
+    },
+    {
+      "id": "rec-c5724ecc",
+      "timestamp": "Sep 25, 2026, 11:29 PM",
+      "recommendation_type": "party",
+      "input_summary": "Party Type: Wedding | Guests: 3 | Needs: Catering, Decoration, Entertainment",
+      "result_summary": "Budget: \u20b95,000 | Remaining: \u20b90",
+      "full_input": {
+        "total_budget": 5000.0,
+        "num_guests": 3,
+        "party_type": "Wedding",
+        "venue_type": "Home",
+        "needs_catering": true,
+        "needs_decoration": true,
+        "needs_entertainment": true,
+        "additional_requirements": "Vegetarian buffet"
+      },
+      "full_result": {
+        "total_budget": 5000.0,
+        "budget_breakdown": [
+          {
+            "category": "catering",
+            "allocation": 2250.0,
+            "items": [
+              {
+                "name": "Curated Party Platter & Buffet for 3 Guests",
+                "description": "Gourmet multi-course party catering package including appetizers, mocktails, main course, and dessert.",
+                "estimated_price": 2250.0,
+                "quantity": 1,
+                "search_terms": "party catering food box wedding",
+                "shopping_links": {
+                  "swiggy": "https://www.swiggy.com/search?query=party+catering+food+box+wedding",
+                  "zomato": "https://www.zomato.com/search?q=party+catering+food+box+wedding",
+                  "bigbasket": "https://www.bigbasket.com/ps/?q=party+catering+food+box+wedding"
+                }
+              }
+            ]
+          },
+          {
+            "category": "decoration",
+            "allocation": 1250.0,
+            "items": [
+              {
+                "name": "Festive Theme Decor & Balloon Arch Set",
+                "description": "Complete DIY decoration kit with LED fairy lights, backdrop foil curtains, banners, and balloon garland.",
+                "estimated_price": 1250.0,
+                "quantity": 1,
+                "search_terms": "wedding theme party decoration kit balloons",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=wedding+theme+party+decoration+kit+balloons",
+                  "flipkart": "https://www.flipkart.com/search?q=wedding+theme+party+decoration+kit+balloons",
+                  "myntra": "https://www.myntra.com/search?q=wedding+theme+party+decoration+kit+balloons",
+                  "meesho": "https://www.meesho.com/search?q=wedding+theme+party+decoration+kit+balloons"
+                }
+              }
+            ]
+          },
+          {
+            "category": "entertainment",
+            "allocation": 1000.0,
+            "items": [
+              {
+                "name": "Bluetooth Party Speaker & Game Activity Kit",
+                "description": "High-bass party speaker rental/purchase with fun group party board games and digital music playlist subscription.",
+                "estimated_price": 600.0,
+                "quantity": 1,
+                "search_terms": "party games group activity kit bluetooth speaker",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=party+games+group+activity+kit+bluetooth+speaker",
+                  "flipkart": "https://www.flipkart.com/search?q=party+games+group+activity+kit+bluetooth+speaker",
+                  "bookmyshow": "https://in.bookmyshow.com/search?q=party+games+group+activity+kit+bluetooth+speaker"
+                }
+              },
+              {
+                "name": "Return Favors & Souvenirs for 3 Guests",
+                "description": "Custom packaged return gift tokens and sweet celebration hampers for all attendees.",
+                "estimated_price": 400.0,
+                "quantity": 3,
+                "search_terms": "party return gifts favors pack of 3",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=party+return+gifts+favors+pack+of+3",
+                  "flipkart": "https://www.flipkart.com/search?q=party+return+gifts+favors+pack+of+3",
+                  "bookmyshow": "https://in.bookmyshow.com/search?q=party+return+gifts+favors+pack+of+3"
+                }
+              }
+            ]
+          },
+          {
+            "category": "contingency",
+            "allocation": 500.0,
+            "items": [
+              {
+                "name": "Emergency & Miscellaneous Supplies Reserve",
+                "description": "Buffer fund for extra ice, beverages, takeaway disposables, and last-minute delivery charges.",
+                "estimated_price": 500.0,
+                "quantity": 1,
+                "search_terms": "party disposables napkins cutlery cups",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=party+disposables+napkins+cutlery+cups",
+                  "flipkart": "https://www.flipkart.com/search?q=party+disposables+napkins+cutlery+cups",
+                  "google": "https://www.google.com/search?q=party+disposables+napkins+cutlery+cups"
+                }
+              }
+            ]
+          }
+        ],
+        "venue_suggestions": [
+          {
+            "name": "Selected Home Event Space",
+            "type": "Home",
+            "capacity": 20,
+            "estimated_cost": 0.0,
+            "search_terms": "Home venue rental near me for 3 people",
+            "search_links": {
+              "google": "https://www.google.com/search?q=Home+venue+rental+near+me+for+3+people",
+              "booking": "https://www.booking.com/search.html?ss=Home+venue+rental+near+me+for+3+people",
+              "makemytrip": "https://www.makemytrip.com/hotels/hotel-listing/?searchText=Home+venue+rental+near+me+for+3+people",
+              "oyorooms": "https://www.oyorooms.com/search/?location=Home+venue+rental+near+me+for+3+people",
+              "nobroker": "https://www.nobroker.in/property/search/?searchTerm=Home+venue+rental+near+me+for+3+people"
+            }
+          }
+        ],
+        "calculation_table": [
+          {
+            "category": "Catering",
+            "items_count": 1,
+            "total_cost": 2250.0,
+            "percentage_of_budget": 45.0
+          },
+          {
+            "category": "Decoration",
+            "items_count": 1,
+            "total_cost": 1250.0,
+            "percentage_of_budget": 25.0
+          },
+          {
+            "category": "Entertainment",
+            "items_count": 4,
+            "total_cost": 1000.0,
+            "percentage_of_budget": 20.0
+          },
+          {
+            "category": "Contingency",
+            "items_count": 1,
+            "total_cost": 500.0,
+            "percentage_of_budget": 10.0
+          }
+        ],
+        "remaining_budget": 0.0,
+        "additional_suggestions": [
+          "Order finger foods and appetizers in advance via Swiggy or Zomato party orders for bulk discounts.",
+          "Use Spotify or Apple Music party playlists to save significantly on DJ or live music expenses.",
+          "Incorporate DIY photo booths with fairy lights and prop cutouts for instagram-worthy memories within budget."
+        ]
+      }
+    },
+    {
+      "id": "rec-b1ef9f48",
+      "timestamp": "Sep 25, 2026, 11:29 PM",
+      "recommendation_type": "home",
+      "input_summary": "Rooms: Living Room, Kitchen | Lights: 5, Fans: 4, Furniture: 2",
+      "result_summary": "Budget: \u20b95,000 | Remaining: \u20b9250",
+      "full_input": {
+        "total_budget": 5000.0,
+        "num_lights": 5,
+        "num_fans": 4,
+        "num_furniture": 2,
+        "num_dining_tables": 1,
+        "has_living_room": true,
+        "has_kitchen": true,
+        "has_bedroom": false,
+        "additional_requirements": "Modern compact style"
+      },
+      "full_result": {
+        "total_budget": 5000.0,
+        "budget_breakdown": [
+          {
+            "category": "Lighting",
+            "allocation": 750.0,
+            "items": [
+              {
+                "name": "Philips / Wipro Warm White LED Smart Bulb & Downlights",
+                "description": "Energy-efficient 9W/12W warm white LED bulbs with anti-glare diffuser for ambient room illumination.",
+                "estimated_price": 150.0,
+                "quantity": 5,
+                "search_terms": "LED warm white downlight bulbs Philips",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=LED+warm+white+downlight+bulbs+Philips",
+                  "flipkart": "https://www.flipkart.com/search?q=LED+warm+white+downlight+bulbs+Philips",
+                  "ikea": "https://www.ikea.com/in/en/search/?q=LED+warm+white+downlight+bulbs+Philips",
+                  "myntra": "https://www.myntra.com/search?q=LED+warm+white+downlight+bulbs+Philips",
+                  "ajio": "https://www.ajio.com/search/?text=LED+warm+white+downlight+bulbs+Philips"
+                }
+              }
+            ]
+          },
+          {
+            "category": "Ceiling Fans",
+            "allocation": 1250.0,
+            "items": [
+              {
+                "name": "Havells / Crompton High-Speed Ceiling Fan (1200mm)",
+                "description": "BEE 5-star energy saving ceiling fan with silent copper motor and aerodynamically balanced blades.",
+                "estimated_price": 312.5,
+                "quantity": 4,
+                "search_terms": "Havells Crompton 1200mm high speed ceiling fan",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=Havells+Crompton+1200mm+high+speed+ceiling+fan",
+                  "flipkart": "https://www.flipkart.com/search?q=Havells+Crompton+1200mm+high+speed+ceiling+fan",
+                  "ikea": "https://www.ikea.com/in/en/search/?q=Havells+Crompton+1200mm+high+speed+ceiling+fan",
+                  "myntra": "https://www.myntra.com/search?q=Havells+Crompton+1200mm+high+speed+ceiling+fan",
+                  "ajio": "https://www.ajio.com/search/?text=Havells+Crompton+1200mm+high+speed+ceiling+fan"
+                }
+              }
+            ]
+          },
+          {
+            "category": "Furniture",
+            "allocation": 2750.0,
+            "items": [
+              {
+                "name": "Nilkamal / Wakefit Modern Living Accent Chair & Side Stool",
+                "description": "Ergonomic, modern upholstered accent seating with sturdy solid wood legs for comfort and durability.",
+                "estimated_price": 875.0,
+                "quantity": 2,
+                "search_terms": "Nilkamal modern accent chair living room",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=Nilkamal+modern+accent+chair+living+room",
+                  "flipkart": "https://www.flipkart.com/search?q=Nilkamal+modern+accent+chair+living+room",
+                  "ikea": "https://www.ikea.com/in/en/search/?q=Nilkamal+modern+accent+chair+living+room",
+                  "myntra": "https://www.myntra.com/search?q=Nilkamal+modern+accent+chair+living+room",
+                  "ajio": "https://www.ajio.com/search/?text=Nilkamal+modern+accent+chair+living+room"
+                }
+              },
+              {
+                "name": "IKEA / Amazon Brand Compact Solid Wood Dining Table",
+                "description": "Minimalist 4-seater wooden dining table with water-resistant smooth oak finish suitable for modern spaces.",
+                "estimated_price": 1000.0,
+                "quantity": 1,
+                "search_terms": "solid wood 4 seater dining table compact",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=solid+wood+4+seater+dining+table+compact",
+                  "flipkart": "https://www.flipkart.com/search?q=solid+wood+4+seater+dining+table+compact",
+                  "ikea": "https://www.ikea.com/in/en/search/?q=solid+wood+4+seater+dining+table+compact",
+                  "myntra": "https://www.myntra.com/search?q=solid+wood+4+seater+dining+table+compact",
+                  "ajio": "https://www.ajio.com/search/?text=solid+wood+4+seater+dining+table+compact"
+                }
+              }
+            ]
+          }
+        ],
+        "calculation_table": [
+          {
+            "category": "Lighting",
+            "items_count": 5,
+            "total_cost": 750.0,
+            "percentage_of_budget": 15.0
+          },
+          {
+            "category": "Ceiling Fans",
+            "items_count": 4,
+            "total_cost": 1250.0,
+            "percentage_of_budget": 25.0
+          },
+          {
+            "category": "Furniture",
+            "items_count": 3,
+            "total_cost": 2750.0,
+            "percentage_of_budget": 55.0
+          }
+        ],
+        "remaining_budget": 250.0,
+        "additional_suggestions": [
+          "Consider purchasing combo packages or festive bundles on Amazon and IKEA for additional 10-15% discount.",
+          "Check local manufacturer outlets or factory-direct stores for solid wood furniture at competitive rates.",
+          "Opt for 5-star BEE energy-certified appliances to drastically reduce monthly electricity expenditures."
+        ]
+      }
+    },
+    {
+      "id": "rec-demo-home-1",
+      "timestamp": "May 22, 2026, 12:02 PM",
+      "recommendation_type": "home",
+      "input_summary": "Rooms: Living Room, Kitchen | Lights: 5, Fans: 4, Furniture: 2",
+      "result_summary": "Budget: \u20b95,000 | Remaining: \u20b9500",
+      "full_input": {
+        "total_budget": 5000,
+        "num_lights": 5,
+        "num_fans": 4,
+        "num_furniture": 2,
+        "has_living_room": true,
+        "has_kitchen": true
+      },
+      "full_result": {
+        "total_budget": 5000.0,
+        "budget_breakdown": [
+          {
+            "category": "Lighting",
+            "allocation": 750.0,
+            "items": [
+              {
+                "name": "Philips / Wipro Warm White LED Smart Bulb & Downlights",
+                "description": "Energy-efficient 9W/12W warm white LED bulbs with anti-glare diffuser for ambient room illumination.",
+                "estimated_price": 150.0,
+                "quantity": 5,
+                "search_terms": "LED warm white downlight bulbs Philips",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=LED+warm+white+downlight+bulbs+Philips",
+                  "flipkart": "https://www.flipkart.com/search?q=LED+warm+white+downlight+bulbs+Philips",
+                  "ikea": "https://www.ikea.com/in/en/search/?q=LED+warm+white+downlight+bulbs+Philips",
+                  "myntra": "https://www.myntra.com/search?q=LED+warm+white+downlight+bulbs+Philips",
+                  "ajio": "https://www.ajio.com/search/?text=LED+warm+white+downlight+bulbs+Philips"
+                }
+              }
+            ]
+          },
+          {
+            "category": "Ceiling Fans",
+            "allocation": 1250.0,
+            "items": [
+              {
+                "name": "Havells / Crompton High-Speed Ceiling Fan (1200mm)",
+                "description": "BEE 5-star energy saving ceiling fan with silent copper motor and aerodynamically balanced blades.",
+                "estimated_price": 312.5,
+                "quantity": 4,
+                "search_terms": "Havells Crompton 1200mm high speed ceiling fan",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=Havells+Crompton+1200mm+high+speed+ceiling+fan",
+                  "flipkart": "https://www.flipkart.com/search?q=Havells+Crompton+1200mm+high+speed+ceiling+fan",
+                  "ikea": "https://www.ikea.com/in/en/search/?q=Havells+Crompton+1200mm+high+speed+ceiling+fan",
+                  "myntra": "https://www.myntra.com/search?q=Havells+Crompton+1200mm+high+speed+ceiling+fan",
+                  "ajio": "https://www.ajio.com/search/?text=Havells+Crompton+1200mm+high+speed+ceiling+fan"
+                }
+              }
+            ]
+          },
+          {
+            "category": "Furniture",
+            "allocation": 1750.0,
+            "items": [
+              {
+                "name": "Nilkamal / Wakefit Modern Living Accent Chair & Side Stool",
+                "description": "Ergonomic, modern upholstered accent seating with sturdy solid wood legs for comfort and durability.",
+                "estimated_price": 875.0,
+                "quantity": 2,
+                "search_terms": "Nilkamal modern accent chair living room",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=Nilkamal+modern+accent+chair+living+room",
+                  "flipkart": "https://www.flipkart.com/search?q=Nilkamal+modern+accent+chair+living+room",
+                  "ikea": "https://www.ikea.com/in/en/search/?q=Nilkamal+modern+accent+chair+living+room",
+                  "myntra": "https://www.myntra.com/search?q=Nilkamal+modern+accent+chair+living+room",
+                  "ajio": "https://www.ajio.com/search/?text=Nilkamal+modern+accent+chair+living+room"
+                }
+              }
+            ]
+          }
+        ],
+        "calculation_table": [
+          {
+            "category": "Lighting",
+            "items_count": 5,
+            "total_cost": 750.0,
+            "percentage_of_budget": 15.0
+          },
+          {
+            "category": "Ceiling Fans",
+            "items_count": 4,
+            "total_cost": 1250.0,
+            "percentage_of_budget": 25.0
+          },
+          {
+            "category": "Furniture",
+            "items_count": 2,
+            "total_cost": 1750.0,
+            "percentage_of_budget": 35.0
+          }
+        ],
+        "remaining_budget": 1250.0,
+        "additional_suggestions": [
+          "Consider purchasing combo packages or festive bundles on Amazon and IKEA for additional 10-15% discount.",
+          "Check local manufacturer outlets or factory-direct stores for solid wood furniture at competitive rates.",
+          "Opt for 5-star BEE energy-certified appliances to drastically reduce monthly electricity expenditures."
+        ]
+      }
+    },
+    {
+      "id": "rec-demo-party-2",
+      "timestamp": "May 22, 2026, 12:05 PM",
+      "recommendation_type": "party",
+      "input_summary": "Party Type: wedding | Guests: 3 | Needs: Catering, Entertainment",
+      "result_summary": "Budget: \u20b95,000 | Remaining: \u20b90",
+      "full_input": {
+        "total_budget": 5000,
+        "num_guests": 3,
+        "party_type": "Wedding",
+        "needs_catering": true,
+        "needs_entertainment": true
+      },
+      "full_result": {
+        "total_budget": 5000.0,
+        "budget_breakdown": [
+          {
+            "category": "catering",
+            "allocation": 2250.0,
+            "items": [
+              {
+                "name": "Curated Party Platter & Buffet for 3 Guests",
+                "description": "Gourmet multi-course party catering package including appetizers, mocktails, main course, and dessert.",
+                "estimated_price": 2250.0,
+                "quantity": 1,
+                "search_terms": "party catering food box wedding",
+                "shopping_links": {
+                  "swiggy": "https://www.swiggy.com/search?query=party+catering+food+box+wedding",
+                  "zomato": "https://www.zomato.com/search?q=party+catering+food+box+wedding",
+                  "bigbasket": "https://www.bigbasket.com/ps/?q=party+catering+food+box+wedding"
+                }
+              }
+            ]
+          },
+          {
+            "category": "decoration",
+            "allocation": 750.0,
+            "items": [
+              {
+                "name": "Festive Theme Decor & Balloon Arch Set",
+                "description": "Complete DIY decoration kit with LED fairy lights, backdrop foil curtains, banners, and balloon garland.",
+                "estimated_price": 750.0,
+                "quantity": 1,
+                "search_terms": "wedding theme party decoration kit balloons",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=wedding+theme+party+decoration+kit+balloons",
+                  "flipkart": "https://www.flipkart.com/search?q=wedding+theme+party+decoration+kit+balloons",
+                  "myntra": "https://www.myntra.com/search?q=wedding+theme+party+decoration+kit+balloons",
+                  "meesho": "https://www.meesho.com/search?q=wedding+theme+party+decoration+kit+balloons"
+                }
+              }
+            ]
+          },
+          {
+            "category": "entertainment",
+            "allocation": 1000.0,
+            "items": [
+              {
+                "name": "Bluetooth Party Speaker & Game Activity Kit",
+                "description": "High-bass party speaker rental/purchase with fun group party board games and digital music playlist subscription.",
+                "estimated_price": 600.0,
+                "quantity": 1,
+                "search_terms": "party games group activity kit bluetooth speaker",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=party+games+group+activity+kit+bluetooth+speaker",
+                  "flipkart": "https://www.flipkart.com/search?q=party+games+group+activity+kit+bluetooth+speaker",
+                  "bookmyshow": "https://in.bookmyshow.com/search?q=party+games+group+activity+kit+bluetooth+speaker"
+                }
+              },
+              {
+                "name": "Return Favors & Souvenirs for 3 Guests",
+                "description": "Custom packaged return gift tokens and sweet celebration hampers for all attendees.",
+                "estimated_price": 400.0,
+                "quantity": 3,
+                "search_terms": "party return gifts favors pack of 3",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=party+return+gifts+favors+pack+of+3",
+                  "flipkart": "https://www.flipkart.com/search?q=party+return+gifts+favors+pack+of+3",
+                  "bookmyshow": "https://in.bookmyshow.com/search?q=party+return+gifts+favors+pack+of+3"
+                }
+              }
+            ]
+          },
+          {
+            "category": "contingency",
+            "allocation": 500.0,
+            "items": [
+              {
+                "name": "Emergency & Miscellaneous Supplies Reserve",
+                "description": "Buffer fund for extra ice, beverages, takeaway disposables, and last-minute delivery charges.",
+                "estimated_price": 500.0,
+                "quantity": 1,
+                "search_terms": "party disposables napkins cutlery cups",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=party+disposables+napkins+cutlery+cups",
+                  "flipkart": "https://www.flipkart.com/search?q=party+disposables+napkins+cutlery+cups",
+                  "google": "https://www.google.com/search?q=party+disposables+napkins+cutlery+cups"
+                }
+              }
+            ]
+          }
+        ],
+        "venue_suggestions": [
+          {
+            "name": "Selected Home Event Space",
+            "type": "Home",
+            "capacity": 20,
+            "estimated_cost": 0.0,
+            "search_terms": "Home venue rental near me for 3 people",
+            "search_links": {
+              "google": "https://www.google.com/search?q=Home+venue+rental+near+me+for+3+people",
+              "booking": "https://www.booking.com/search.html?ss=Home+venue+rental+near+me+for+3+people",
+              "makemytrip": "https://www.makemytrip.com/hotels/hotel-listing/?searchText=Home+venue+rental+near+me+for+3+people",
+              "oyorooms": "https://www.oyorooms.com/search/?location=Home+venue+rental+near+me+for+3+people",
+              "nobroker": "https://www.nobroker.in/property/search/?searchTerm=Home+venue+rental+near+me+for+3+people"
+            }
+          }
+        ],
+        "calculation_table": [
+          {
+            "category": "Catering",
+            "items_count": 1,
+            "total_cost": 2250.0,
+            "percentage_of_budget": 45.0
+          },
+          {
+            "category": "Decoration",
+            "items_count": 1,
+            "total_cost": 750.0,
+            "percentage_of_budget": 15.0
+          },
+          {
+            "category": "Entertainment",
+            "items_count": 4,
+            "total_cost": 1000.0,
+            "percentage_of_budget": 20.0
+          },
+          {
+            "category": "Contingency",
+            "items_count": 1,
+            "total_cost": 500.0,
+            "percentage_of_budget": 10.0
+          }
+        ],
+        "remaining_budget": 500.0,
+        "additional_suggestions": [
+          "Order finger foods and appetizers in advance via Swiggy or Zomato party orders for bulk discounts.",
+          "Use Spotify or Apple Music party playlists to save significantly on DJ or live music expenses.",
+          "Incorporate DIY photo booths with fairy lights and prop cutouts for instagram-worthy memories within budget."
+        ]
+      }
+    },
+    {
+      "id": "rec-demo-jewelry-3",
+      "timestamp": "May 22, 2026, 12:08 PM",
+      "recommendation_type": "jewelry",
+      "input_summary": "Occasion: Birthday | With outfit image: Yes",
+      "result_summary": "Budget: \u20b95,000 | Remaining: \u20b9800",
+      "full_input": {
+        "total_budget": 5000,
+        "occasion": "Birthday",
+        "preferences": "Elegant minimalist"
+      },
+      "full_result": {
+        "total_budget": 5000.0,
+        "outfit_analysis": {
+          "colors": [
+            "Golden Hue",
+            "Classic Blue",
+            "Subtle White"
+          ],
+          "style": "Contemporary Ethnic",
+          "formality": "Semi-Formal to Festive"
+        },
+        "jewelry_recommendations": [
+          {
+            "item_type": "Necklace / Pendant",
+            "name": "Delicate 18K Gold Plated Solitaire Pendant & Chain",
+            "description": "Exquisite zircon-studded pendant necklace, styled to complement your outfit neckline for Birthday.",
+            "style": "Contemporary Ethnic / Minimalist",
+            "estimated_price": 1600.0,
+            "search_terms": "gold plated solitaire pendant necklace for Birthday",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=gold+plated+solitaire+pendant+necklace+for+Birthday",
+              "flipkart": "https://www.flipkart.com/search?q=gold+plated+solitaire+pendant+necklace+for+Birthday",
+              "bluestone": "https://www.bluestone.com/search.html?query=gold+plated+solitaire+pendant+necklace+for+Birthday",
+              "tanishq": "https://www.tanishq.co.in/search?q=gold+plated+solitaire+pendant+necklace+for+Birthday",
+              "caratlane": "https://www.caratlane.com/search?q=gold+plated+solitaire+pendant+necklace+for+Birthday",
+              "melorra": "https://www.melorra.com/search?q=gold+plated+solitaire+pendant+necklace+for+Birthday",
+              "meesho": "https://www.meesho.com/search?q=gold+plated+solitaire+pendant+necklace+for+Birthday"
+            }
+          },
+          {
+            "item_type": "Earrings / Studs",
+            "name": "Classic Pear-Cut Crystal Drop Earrings",
+            "description": "Lightweight hypoallergenic dangling earrings that catch the light elegantly without overpowering the face.",
+            "style": "Graceful Statement",
+            "estimated_price": 1400.0,
+            "search_terms": "crystal drop earrings pear cut Birthday",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=crystal+drop+earrings+pear+cut+Birthday",
+              "flipkart": "https://www.flipkart.com/search?q=crystal+drop+earrings+pear+cut+Birthday",
+              "bluestone": "https://www.bluestone.com/search.html?query=crystal+drop+earrings+pear+cut+Birthday",
+              "tanishq": "https://www.tanishq.co.in/search?q=crystal+drop+earrings+pear+cut+Birthday",
+              "caratlane": "https://www.caratlane.com/search?q=crystal+drop+earrings+pear+cut+Birthday",
+              "melorra": "https://www.melorra.com/search?q=crystal+drop+earrings+pear+cut+Birthday",
+              "meesho": "https://www.meesho.com/search?q=crystal+drop+earrings+pear+cut+Birthday"
+            }
+          },
+          {
+            "item_type": "Bracelet / Bangle",
+            "name": "Sleek Adjustable Tennis Cuff Bracelet",
+            "description": "Modern silver-toned cuff with micro-pave cubic zirconia stones, perfect for day-to-night transitions.",
+            "style": "Contemporary Chic",
+            "estimated_price": 1250.0,
+            "search_terms": "adjustable tennis bracelet cubic zirconia",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=adjustable+tennis+bracelet+cubic+zirconia",
+              "flipkart": "https://www.flipkart.com/search?q=adjustable+tennis+bracelet+cubic+zirconia",
+              "bluestone": "https://www.bluestone.com/search.html?query=adjustable+tennis+bracelet+cubic+zirconia",
+              "tanishq": "https://www.tanishq.co.in/search?q=adjustable+tennis+bracelet+cubic+zirconia",
+              "caratlane": "https://www.caratlane.com/search?q=adjustable+tennis+bracelet+cubic+zirconia",
+              "melorra": "https://www.melorra.com/search?q=adjustable+tennis+bracelet+cubic+zirconia",
+              "meesho": "https://www.meesho.com/search?q=adjustable+tennis+bracelet+cubic+zirconia"
+            }
+          }
+        ],
+        "remaining_budget": 750.0,
+        "styling_tips": [
+          "Balance your jewelry focal point: when wearing prominent earrings, keep neckpieces subtle and understated.",
+          "Match the metallic undertones with your outfit details (gold tones for warm palettes, silver/platinum for cooler shades).",
+          "Choose lightweight, anti-tarnish jewelry with skin-friendly rhodium or gold plating for comfortable prolonged wear."
+        ]
+      }
+    }
+  ],
+  "dhanush": [
+    {
+      "id": "rec-5a75df7b",
+      "timestamp": "Sep 26, 2026, 12:26 AM",
+      "recommendation_type": "jewelry",
+      "input_summary": "Occasion: Birthday | With outfit image: No",
+      "result_summary": "Budget: \u20b95,000 | Remaining: \u20b9750",
+      "full_input": {
+        "total_budget": 5000.0,
+        "occasion": "Birthday",
+        "preferences": "moden style and unique colour  and mores."
+      },
+      "full_result": {
+        "total_budget": 5000.0,
+        "outfit_analysis": {
+          "colors": [
+            "Golden Hue",
+            "Classic Blue",
+            "Subtle White"
+          ],
+          "style": "Contemporary Ethnic",
+          "formality": "Semi-Formal to Festive"
+        },
+        "jewelry_recommendations": [
+          {
+            "item_type": "Necklace / Pendant",
+            "name": "Delicate 18K Gold Plated Solitaire Pendant & Chain",
+            "description": "Exquisite zircon-studded pendant necklace, styled to complement your outfit neckline for Birthday.",
+            "style": "Contemporary Ethnic / Minimalist",
+            "estimated_price": 1600.0,
+            "search_terms": "gold plated solitaire pendant necklace for Birthday",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=gold+plated+solitaire+pendant+necklace+for+Birthday",
+              "flipkart": "https://www.flipkart.com/search?q=gold+plated+solitaire+pendant+necklace+for+Birthday",
+              "bluestone": "https://www.bluestone.com/search.html?query=gold+plated+solitaire+pendant+necklace+for+Birthday",
+              "tanishq": "https://www.tanishq.co.in/search?q=gold+plated+solitaire+pendant+necklace+for+Birthday",
+              "caratlane": "https://www.caratlane.com/search?q=gold+plated+solitaire+pendant+necklace+for+Birthday",
+              "melorra": "https://www.melorra.com/search?q=gold+plated+solitaire+pendant+necklace+for+Birthday",
+              "meesho": "https://www.meesho.com/search?q=gold+plated+solitaire+pendant+necklace+for+Birthday"
+            }
+          },
+          {
+            "item_type": "Earrings / Studs",
+            "name": "Classic Pear-Cut Crystal Drop Earrings",
+            "description": "Lightweight hypoallergenic dangling earrings that catch the light elegantly without overpowering the face.",
+            "style": "Graceful Statement",
+            "estimated_price": 1400.0,
+            "search_terms": "crystal drop earrings pear cut Birthday",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=crystal+drop+earrings+pear+cut+Birthday",
+              "flipkart": "https://www.flipkart.com/search?q=crystal+drop+earrings+pear+cut+Birthday",
+              "bluestone": "https://www.bluestone.com/search.html?query=crystal+drop+earrings+pear+cut+Birthday",
+              "tanishq": "https://www.tanishq.co.in/search?q=crystal+drop+earrings+pear+cut+Birthday",
+              "caratlane": "https://www.caratlane.com/search?q=crystal+drop+earrings+pear+cut+Birthday",
+              "melorra": "https://www.melorra.com/search?q=crystal+drop+earrings+pear+cut+Birthday",
+              "meesho": "https://www.meesho.com/search?q=crystal+drop+earrings+pear+cut+Birthday"
+            }
+          },
+          {
+            "item_type": "Bracelet / Bangle",
+            "name": "Sleek Adjustable Tennis Cuff Bracelet",
+            "description": "Modern silver-toned cuff with micro-pave cubic zirconia stones, perfect for day-to-night transitions.",
+            "style": "Contemporary Chic",
+            "estimated_price": 1250.0,
+            "search_terms": "adjustable tennis bracelet cubic zirconia",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=adjustable+tennis+bracelet+cubic+zirconia",
+              "flipkart": "https://www.flipkart.com/search?q=adjustable+tennis+bracelet+cubic+zirconia",
+              "bluestone": "https://www.bluestone.com/search.html?query=adjustable+tennis+bracelet+cubic+zirconia",
+              "tanishq": "https://www.tanishq.co.in/search?q=adjustable+tennis+bracelet+cubic+zirconia",
+              "caratlane": "https://www.caratlane.com/search?q=adjustable+tennis+bracelet+cubic+zirconia",
+              "melorra": "https://www.melorra.com/search?q=adjustable+tennis+bracelet+cubic+zirconia",
+              "meesho": "https://www.meesho.com/search?q=adjustable+tennis+bracelet+cubic+zirconia"
+            }
+          }
+        ],
+        "remaining_budget": 750.0,
+        "styling_tips": [
+          "Balance your jewelry focal point: when wearing prominent earrings, keep neckpieces subtle and understated.",
+          "Match the metallic undertones with your outfit details (gold tones for warm palettes, silver/platinum for cooler shades).",
+          "Choose lightweight, anti-tarnish jewelry with skin-friendly rhodium or gold plating for comfortable prolonged wear."
+        ]
+      }
+    },
+    {
+      "id": "rec-9c2792ad",
+      "timestamp": "Sep 26, 2026, 12:23 AM",
+      "recommendation_type": "party",
+      "input_summary": "Party Type: Wedding | Guests: 3 | Needs: Catering, Decoration, Entertainment",
+      "result_summary": "Budget: \u20b95,000 | Remaining: \u20b90",
+      "full_input": {
+        "total_budget": 5000.0,
+        "num_guests": 3,
+        "party_type": "Wedding",
+        "venue_type": "Home",
+        "needs_catering": true,
+        "needs_decoration": true,
+        "needs_entertainment": true,
+        "additional_requirements": ""
+      },
+      "full_result": {
+        "total_budget": 5000.0,
+        "budget_breakdown": [
+          {
+            "category": "catering",
+            "allocation": 2250.0,
+            "items": [
+              {
+                "name": "Curated Party Platter & Buffet for 3 Guests",
+                "description": "Gourmet multi-course party catering package including appetizers, mocktails, main course, and dessert.",
+                "estimated_price": 2250.0,
+                "quantity": 1,
+                "search_terms": "party catering food box wedding",
+                "shopping_links": {
+                  "swiggy": "https://www.swiggy.com/search?query=party+catering+food+box+wedding",
+                  "zomato": "https://www.zomato.com/search?q=party+catering+food+box+wedding",
+                  "bigbasket": "https://www.bigbasket.com/ps/?q=party+catering+food+box+wedding"
+                }
+              }
+            ]
+          },
+          {
+            "category": "decoration",
+            "allocation": 1250.0,
+            "items": [
+              {
+                "name": "Festive Theme Decor & Balloon Arch Set",
+                "description": "Complete DIY decoration kit with LED fairy lights, backdrop foil curtains, banners, and balloon garland.",
+                "estimated_price": 1250.0,
+                "quantity": 1,
+                "search_terms": "wedding theme party decoration kit balloons",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=wedding+theme+party+decoration+kit+balloons",
+                  "flipkart": "https://www.flipkart.com/search?q=wedding+theme+party+decoration+kit+balloons",
+                  "myntra": "https://www.myntra.com/search?q=wedding+theme+party+decoration+kit+balloons",
+                  "meesho": "https://www.meesho.com/search?q=wedding+theme+party+decoration+kit+balloons"
+                }
+              }
+            ]
+          },
+          {
+            "category": "entertainment",
+            "allocation": 1000.0,
+            "items": [
+              {
+                "name": "Bluetooth Party Speaker & Game Activity Kit",
+                "description": "High-bass party speaker rental/purchase with fun group party board games and digital music playlist subscription.",
+                "estimated_price": 600.0,
+                "quantity": 1,
+                "search_terms": "party games group activity kit bluetooth speaker",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=party+games+group+activity+kit+bluetooth+speaker",
+                  "flipkart": "https://www.flipkart.com/search?q=party+games+group+activity+kit+bluetooth+speaker",
+                  "bookmyshow": "https://in.bookmyshow.com/search?q=party+games+group+activity+kit+bluetooth+speaker"
+                }
+              },
+              {
+                "name": "Return Favors & Souvenirs for 3 Guests",
+                "description": "Custom packaged return gift tokens and sweet celebration hampers for all attendees.",
+                "estimated_price": 400.0,
+                "quantity": 3,
+                "search_terms": "party return gifts favors pack of 3",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=party+return+gifts+favors+pack+of+3",
+                  "flipkart": "https://www.flipkart.com/search?q=party+return+gifts+favors+pack+of+3",
+                  "bookmyshow": "https://in.bookmyshow.com/search?q=party+return+gifts+favors+pack+of+3"
+                }
+              }
+            ]
+          },
+          {
+            "category": "contingency",
+            "allocation": 500.0,
+            "items": [
+              {
+                "name": "Emergency & Miscellaneous Supplies Reserve",
+                "description": "Buffer fund for extra ice, beverages, takeaway disposables, and last-minute delivery charges.",
+                "estimated_price": 500.0,
+                "quantity": 1,
+                "search_terms": "party disposables napkins cutlery cups",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=party+disposables+napkins+cutlery+cups",
+                  "flipkart": "https://www.flipkart.com/search?q=party+disposables+napkins+cutlery+cups",
+                  "google": "https://www.google.com/search?q=party+disposables+napkins+cutlery+cups"
+                }
+              }
+            ]
+          }
+        ],
+        "venue_suggestions": [
+          {
+            "name": "Selected Home Event Space",
+            "type": "Home",
+            "capacity": 20,
+            "estimated_cost": 0.0,
+            "search_terms": "Home venue rental near me for 3 people",
+            "search_links": {
+              "google": "https://www.google.com/search?q=Home+venue+rental+near+me+for+3+people",
+              "booking": "https://www.booking.com/search.html?ss=Home+venue+rental+near+me+for+3+people",
+              "makemytrip": "https://www.makemytrip.com/hotels/hotel-listing/?searchText=Home+venue+rental+near+me+for+3+people",
+              "oyorooms": "https://www.oyorooms.com/search/?location=Home+venue+rental+near+me+for+3+people",
+              "nobroker": "https://www.nobroker.in/property/search/?searchTerm=Home+venue+rental+near+me+for+3+people"
+            }
+          }
+        ],
+        "calculation_table": [
+          {
+            "category": "Catering",
+            "items_count": 1,
+            "total_cost": 2250.0,
+            "percentage_of_budget": 45.0
+          },
+          {
+            "category": "Decoration",
+            "items_count": 1,
+            "total_cost": 1250.0,
+            "percentage_of_budget": 25.0
+          },
+          {
+            "category": "Entertainment",
+            "items_count": 4,
+            "total_cost": 1000.0,
+            "percentage_of_budget": 20.0
+          },
+          {
+            "category": "Contingency",
+            "items_count": 1,
+            "total_cost": 500.0,
+            "percentage_of_budget": 10.0
+          }
+        ],
+        "remaining_budget": 0.0,
+        "additional_suggestions": [
+          "Order finger foods and appetizers in advance via Swiggy or Zomato party orders for bulk discounts.",
+          "Use Spotify or Apple Music party playlists to save significantly on DJ or live music expenses.",
+          "Incorporate DIY photo booths with fairy lights and prop cutouts for instagram-worthy memories within budget."
+        ]
+      }
+    },
+    {
+      "id": "rec-8b82dc58",
+      "timestamp": "Sep 26, 2026, 12:22 AM",
+      "recommendation_type": "home",
+      "input_summary": "Rooms: Living Room, Kitchen | Lights: 5, Fans: 4, Furniture: 2",
+      "result_summary": "Budget: \u20b95,000 | Remaining: \u20b9250",
+      "full_input": {
+        "total_budget": 5000.0,
+        "num_lights": 5,
+        "num_fans": 4,
+        "num_furniture": 2,
+        "num_dining_tables": 1,
+        "has_living_room": true,
+        "has_kitchen": true,
+        "has_bedroom": false,
+        "additional_requirements": ""
+      },
+      "full_result": {
+        "total_budget": 5000.0,
+        "budget_breakdown": [
+          {
+            "category": "Lighting",
+            "allocation": 750.0,
+            "items": [
+              {
+                "name": "Philips / Wipro Warm White LED Smart Bulb & Downlights",
+                "description": "Energy-efficient 9W/12W warm white LED bulbs with anti-glare diffuser for ambient room illumination.",
+                "estimated_price": 150.0,
+                "quantity": 5,
+                "search_terms": "LED warm white downlight bulbs Philips",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=LED+warm+white+downlight+bulbs+Philips",
+                  "flipkart": "https://www.flipkart.com/search?q=LED+warm+white+downlight+bulbs+Philips",
+                  "ikea": "https://www.ikea.com/in/en/search/?q=LED+warm+white+downlight+bulbs+Philips",
+                  "myntra": "https://www.myntra.com/search?q=LED+warm+white+downlight+bulbs+Philips",
+                  "ajio": "https://www.ajio.com/search/?text=LED+warm+white+downlight+bulbs+Philips"
+                }
+              }
+            ]
+          },
+          {
+            "category": "Ceiling Fans",
+            "allocation": 1250.0,
+            "items": [
+              {
+                "name": "Havells / Crompton High-Speed Ceiling Fan (1200mm)",
+                "description": "BEE 5-star energy saving ceiling fan with silent copper motor and aerodynamically balanced blades.",
+                "estimated_price": 312.5,
+                "quantity": 4,
+                "search_terms": "Havells Crompton 1200mm high speed ceiling fan",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=Havells+Crompton+1200mm+high+speed+ceiling+fan",
+                  "flipkart": "https://www.flipkart.com/search?q=Havells+Crompton+1200mm+high+speed+ceiling+fan",
+                  "ikea": "https://www.ikea.com/in/en/search/?q=Havells+Crompton+1200mm+high+speed+ceiling+fan",
+                  "myntra": "https://www.myntra.com/search?q=Havells+Crompton+1200mm+high+speed+ceiling+fan",
+                  "ajio": "https://www.ajio.com/search/?text=Havells+Crompton+1200mm+high+speed+ceiling+fan"
+                }
+              }
+            ]
+          },
+          {
+            "category": "Furniture",
+            "allocation": 2750.0,
+            "items": [
+              {
+                "name": "Nilkamal / Wakefit Modern Living Accent Chair & Side Stool",
+                "description": "Ergonomic, modern upholstered accent seating with sturdy solid wood legs for comfort and durability.",
+                "estimated_price": 875.0,
+                "quantity": 2,
+                "search_terms": "Nilkamal modern accent chair living room",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=Nilkamal+modern+accent+chair+living+room",
+                  "flipkart": "https://www.flipkart.com/search?q=Nilkamal+modern+accent+chair+living+room",
+                  "ikea": "https://www.ikea.com/in/en/search/?q=Nilkamal+modern+accent+chair+living+room",
+                  "myntra": "https://www.myntra.com/search?q=Nilkamal+modern+accent+chair+living+room",
+                  "ajio": "https://www.ajio.com/search/?text=Nilkamal+modern+accent+chair+living+room"
+                }
+              },
+              {
+                "name": "IKEA / Amazon Brand Compact Solid Wood Dining Table",
+                "description": "Minimalist 4-seater wooden dining table with water-resistant smooth oak finish suitable for modern spaces.",
+                "estimated_price": 1000.0,
+                "quantity": 1,
+                "search_terms": "solid wood 4 seater dining table compact",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=solid+wood+4+seater+dining+table+compact",
+                  "flipkart": "https://www.flipkart.com/search?q=solid+wood+4+seater+dining+table+compact",
+                  "ikea": "https://www.ikea.com/in/en/search/?q=solid+wood+4+seater+dining+table+compact",
+                  "myntra": "https://www.myntra.com/search?q=solid+wood+4+seater+dining+table+compact",
+                  "ajio": "https://www.ajio.com/search/?text=solid+wood+4+seater+dining+table+compact"
+                }
+              }
+            ]
+          }
+        ],
+        "calculation_table": [
+          {
+            "category": "Lighting",
+            "items_count": 5,
+            "total_cost": 750.0,
+            "percentage_of_budget": 15.0
+          },
+          {
+            "category": "Ceiling Fans",
+            "items_count": 4,
+            "total_cost": 1250.0,
+            "percentage_of_budget": 25.0
+          },
+          {
+            "category": "Furniture",
+            "items_count": 3,
+            "total_cost": 2750.0,
+            "percentage_of_budget": 55.0
+          }
+        ],
+        "remaining_budget": 250.0,
+        "additional_suggestions": [
+          "Consider purchasing combo packages or festive bundles on Amazon and IKEA for additional 10-15% discount.",
+          "Check local manufacturer outlets or factory-direct stores for solid wood furniture at competitive rates.",
+          "Opt for 5-star BEE energy-certified appliances to drastically reduce monthly electricity expenditures."
+        ]
+      }
+    }
+  ]
+}

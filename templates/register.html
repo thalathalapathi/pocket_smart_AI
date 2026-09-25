@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Account - PocketSmart AI</title>
+  <link rel="stylesheet" href="/static/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body style="background: #f8fafc; display: flex; align-items: center; justify-content: center; min-height: 100vh;">
+
+  <div class="auth-container">
+    <div class="auth-card">
+      <a href="/" style="text-decoration: none;">
+        <div class="auth-brand">
+          <i class="fa-solid fa-wallet" style="color: #2563eb; font-size: 1.8rem;"></i> PocketSmart
+        </div>
+      </a>
+      <div class="auth-subtitle">AI-Powered Budget Planning</div>
+
+      <h2 class="auth-form-title">Create Your Account</h2>
+
+      {% if error %}
+        <div style="background: #fee2e2; border: 1px solid #fca5a5; color: #dc2626; padding: 0.75rem 1rem; border-radius: var(--radius-sm); font-size: 0.88rem; margin-bottom: 1.25rem;">
+          <i class="fa-solid fa-circle-exclamation"></i> {{ error }}
+        </div>
+      {% endif %}
+
+      <form action="/register" method="POST">
+        <div class="auth-input-wrapper">
+          <i class="fa-solid fa-user input-icon"></i>
+          <input type="text" name="username" class="auth-input" placeholder="Choose a username" required autocomplete="username">
+        </div>
+
+        <div class="auth-input-wrapper">
+          <i class="fa-solid fa-envelope input-icon"></i>
+          <input type="email" name="email" class="auth-input" placeholder="Enter your email" required autocomplete="email">
+        </div>
+
+        <div class="auth-input-wrapper">
+          <i class="fa-solid fa-lock input-icon"></i>
+          <input type="password" name="password" class="auth-input" placeholder="Create a strong password" required autocomplete="new-password">
+        </div>
+
+        <div class="auth-input-wrapper">
+          <i class="fa-solid fa-shield-halved input-icon"></i>
+          <input type="password" name="confirm_password" class="auth-input" placeholder="Confirm your password" required autocomplete="new-password">
+        </div>
+
+        <button type="submit" class="auth-btn">
+          Create Account <i class="fa-solid fa-user-plus"></i>
+        </button>
+      </form>
+
+      <div class="auth-footer-text">
+        Already have an account? <a href="/login">Sign In</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

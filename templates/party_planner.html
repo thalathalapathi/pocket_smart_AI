@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Party Budget Planner - PocketSmart AI</title>
+  <link rel="stylesheet" href="/static/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+  <!-- Top Navbar -->
+  <nav class="navbar">
+    <a href="/dashboard" class="nav-brand">
+      <span class="brand-icon"><i class="fa-solid fa-wallet"></i></span>
+      PocketSmart
+    </a>
+    <ul class="nav-links">
+      <li><a href="/dashboard"><i class="fa-solid fa-gauge-high"></i> Dashboard</a></li>
+      <li><a href="/home-planner"><i class="fa-solid fa-house"></i> Home Planner</a></li>
+      <li><a href="/party-planner" class="active"><i class="fa-solid fa-champagne-glasses"></i> Party Planner</a></li>
+      <li><a href="/jewelry-planner"><i class="fa-solid fa-gem"></i> Jewelry Planner</a></li>
+      <li><a href="/history"><i class="fa-solid fa-clock-rotate-left"></i> History</a></li>
+      <li><a href="/logout" style="color: #f87171;"><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</a></li>
+    </ul>
+  </nav>
+
+  <!-- Banner -->
+  <section class="planner-banner">
+    <h1>Party Budget Planner</h1>
+    <p>Plan your perfect event with AI-powered budget recommendations</p>
+  </section>
+
+  <!-- Main Content -->
+  <main class="main-content">
+
+    <!-- Planner Form Card -->
+    <div class="form-card">
+      <form id="partyPlannerForm">
+
+        <!-- Basic Information Section -->
+        <div class="form-section">
+          <div class="section-header">
+            <div class="section-icon"><i class="fa-solid fa-indian-rupee-sign"></i></div>
+            <div class="section-title">Basic Information</div>
+          </div>
+          <div class="form-grid-2">
+            <div class="form-group">
+              <label class="form-label" for="partyBudget">Total Budget (₹)</label>
+              <input type="number" id="partyBudget" name="total_budget" class="form-input" placeholder="e.g. 5000" value="5000" min="500" step="100" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="partyGuests"><i class="fa-solid fa-users" style="color: #2563eb;"></i> Number of Guests</label>
+              <input type="number" id="partyGuests" name="num_guests" class="form-input" min="1" value="3" required>
+            </div>
+          </div>
+        </div>
+
+        <!-- Event Details Section -->
+        <div class="form-section">
+          <div class="section-header">
+            <div class="section-icon"><i class="fa-solid fa-calendar-check"></i></div>
+            <div class="section-title">Event Details</div>
+          </div>
+          <div class="form-grid-2">
+            <div class="form-group">
+              <label class="form-label" for="partyType"><i class="fa-solid fa-cake-candles" style="color: #db2777;"></i> Party Type</label>
+              <select id="partyType" name="party_type" class="form-select">
+                <option value="Wedding" selected>Wedding</option>
+                <option value="Birthday">Birthday</option>
+                <option value="Anniversary">Anniversary</option>
+                <option value="Corporate Event">Corporate Event</option>
+                <option value="House Party">House Party</option>
+                <option value="Reunion">Reunion</option>
+                <option value="Festival Gathering">Festival Gathering</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="venueType"><i class="fa-solid fa-location-dot" style="color: #ea580c;"></i> Venue Type</label>
+              <select id="venueType" name="venue_type" class="form-select">
+                <option value="Home" selected>Home</option>
+                <option value="Banquet Hall">Banquet Hall</option>
+                <option value="Rooftop">Rooftop Lounge</option>
+                <option value="Resort">Resort / Farmhouse</option>
+                <option value="Restaurant">Restaurant Private Area</option>
+                <option value="Community Center">Community Center</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Party Needs Section -->
+        <div class="form-section">
+          <div class="section-header">
+            <div class="section-icon"><i class="fa-solid fa-list-check"></i></div>
+            <div class="section-title">Party Needs</div>
+          </div>
+          <div class="checkbox-group">
+            <label class="checkbox-card">
+              <input type="checkbox" name="needs_catering" value="true" checked>
+              <span><i class="fa-solid fa-utensils" style="color: #ea580c; margin-right: 4px;"></i> Catering</span>
+            </label>
+            <label class="checkbox-card">
+              <input type="checkbox" name="needs_decoration" value="true" checked>
+              <span><i class="fa-solid fa-wand-magic" style="color: #0284c7; margin-right: 4px;"></i> Decoration</span>
+            </label>
+            <label class="checkbox-card">
+              <input type="checkbox" name="needs_entertainment" value="true" checked>
+              <span><i class="fa-solid fa-music" style="color: #f59e0b; margin-right: 4px;"></i> Entertainment</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Additional Requirements Section -->
+        <div class="form-section">
+          <div class="section-header">
+            <div class="section-icon"><i class="fa-solid fa-circle-info"></i></div>
+            <div class="section-title">Additional Requirements</div>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="partyRequirements">Special Requests, Themes, Dietary Restrictions, etc.</label>
+            <textarea id="partyRequirements" name="additional_requirements" class="form-textarea" placeholder="Special requests, themes, dietary restrictions, etc."></textarea>
+          </div>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" id="submitPartyBtn" class="btn-submit-action">
+          <i class="fa-solid fa-calculator"></i> Generate Budget Plan
+        </button>
+      </form>
+    </div>
+
+    <!-- Results Container -->
+    <div id="partyResultsArea" class="results-container" style="display: none;">
+      
+      <div class="results-header-bar">
+        <h2 class="results-heading">Your Party Budget Plan</h2>
+        <div style="display: flex; gap: 0.75rem;">
+          <button type="button" onclick="window.print()" class="btn-details-action" style="width: auto; padding: 0.5rem 1.25rem; background: #0284c7;">
+            <i class="fa-solid fa-print"></i> Print / Save
+          </button>
+          <button type="button" onclick="document.getElementById('partyPlannerForm').scrollIntoView({behavior: 'smooth'})" class="btn-details-action" style="width: auto; padding: 0.5rem 1.25rem;">
+            <i class="fa-solid fa-arrows-rotate"></i> Recalculate
+          </button>
+        </div>
+      </div>
+
+      <!-- Budget Bar -->
+      <div class="budget-summary-card">
+        <div class="budget-summary-header">
+          <i class="fa-solid fa-champagne-glasses"></i> Event Allocation Breakdown
+        </div>
+        <div class="budget-summary-body">
+          <div class="budget-stat">
+            <span class="budget-stat-label">Total Budget</span>
+            <span id="partyTotalDisplay" class="budget-stat-value">₹0.00</span>
+          </div>
+          <div class="budget-stat">
+            <span class="budget-stat-label">Total Allocated</span>
+            <span id="partyAllocatedDisplay" class="budget-stat-value" style="color: #2563eb;">₹0.00</span>
+          </div>
+          <div class="budget-stat" style="text-align: right;">
+            <span class="budget-stat-label">Remaining Balance</span>
+            <span id="partyRemainingDisplay" class="budget-stat-value remaining">₹0.00</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Categories Target Container -->
+      <div id="partyCategoriesContainer"></div>
+
+      <!-- Venue Suggestions Card -->
+      <div id="venueSuggestionsCard" class="form-card" style="display: none; padding: 1.5rem 2rem;">
+        <div class="section-header" style="margin-bottom: 1rem;">
+          <div class="section-icon" style="background: #e0f2fe; color: #0284c7;">
+            <i class="fa-solid fa-building"></i>
+          </div>
+          <div class="section-title">Venue Suggestions</div>
+        </div>
+        <div id="venueListContent"></div>
+      </div>
+
+      <!-- Additional Suggestions Box -->
+      <div class="suggestions-box">
+        <div class="suggestions-header">
+          <i class="fa-solid fa-lightbulb"></i> Additional Suggestions
+        </div>
+        <ul id="partySuggestionsList" class="suggestions-list">
+          <li>Consider making the meal a potluck style if comfortable with guests to reduce catering costs.</li>
+          <li>Look for discounts or offers on streaming services or board games.</li>
+          <li>Homemade decorations can be a cost-effective alternative if you decide to add some.</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer style="background: #0f172a; color: #94a3b8; text-align: center; padding: 1.5rem; font-size: 0.85rem; margin-top: auto;">
+    &copy; 2026 PocketSmart. All rights reserved.
+  </footer>
+
+  <script>
+    const form = document.getElementById('partyPlannerForm');
+    const submitBtn = document.getElementById('submitPartyBtn');
+    const resultsArea = document.getElementById('partyResultsArea');
+    const categoriesContainer = document.getElementById('partyCategoriesContainer');
+    const partyTotalDisplay = document.getElementById('partyTotalDisplay');
+    const partyAllocatedDisplay = document.getElementById('partyAllocatedDisplay');
+    const partyRemainingDisplay = document.getElementById('partyRemainingDisplay');
+    const venueSuggestionsCard = document.getElementById('venueSuggestionsCard');
+    const venueListContent = document.getElementById('venueListContent');
+    const suggestionsList = document.getElementById('partySuggestionsList');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const originalBtnHtml = submitBtn.innerHTML;
+      submitBtn.innerHTML = '<span class="spinner"></span> Analyzing Event Budget & Vendors...';
+      submitBtn.disabled = true;
+
+      const formData = new FormData(form);
+      const payload = {
+        total_budget: parseFloat(formData.get('total_budget') || 0),
+        num_guests: parseInt(formData.get('num_guests') || 1),
+        party_type: formData.get('party_type') || 'Wedding',
+        venue_type: formData.get('venue_type') || 'Home',
+        needs_catering: formData.get('needs_catering') === 'true',
+        needs_decoration: formData.get('needs_decoration') === 'true',
+        needs_entertainment: formData.get('needs_entertainment') === 'true',
+        additional_requirements: formData.get('additional_requirements') || ''
+      };
+
+      try {
+        const response = await fetch('/generate-party', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+
+        if (!response.ok) {
+          throw new Error('Failed to generate party recommendations');
+        }
+
+        const data = await response.json();
+        renderPartyResults(data);
+        resultsArea.style.display = 'block';
+        resultsArea.scrollIntoView({ behavior: 'smooth' });
+
+      } catch (err) {
+        alert('An error occurred: ' + err.message);
+      } finally {
+        submitBtn.innerHTML = originalBtnHtml;
+        submitBtn.disabled = false;
+      }
+    });
+
+    function renderPartyResults(data) {
+      const total = Number(data.total_budget || 0);
+      const remaining = Number(data.remaining_budget || 0);
+      let totalAllocated = 0;
+
+      categoriesContainer.innerHTML = '';
+
+      if (data.budget_breakdown && data.budget_breakdown.length > 0) {
+        data.budget_breakdown.forEach(cat => {
+          totalAllocated += Number(cat.allocation || 0);
+
+          const catCard = document.createElement('div');
+          catCard.className = 'category-card';
+
+          const catName = (cat.category || 'General').toUpperCase();
+          const catAlloc = Number(cat.allocation || 0);
+
+          let itemsHtml = '';
+          (cat.items || []).forEach(item => {
+            const price = Number(item.estimated_price || 0);
+            const links = item.shopping_links || {};
+
+            let storeBadges = '';
+            for (const [platform, url] of Object.entries(links)) {
+              let iconClass = 'fa-solid fa-arrow-up-right-from-square';
+              if (platform === 'amazon') iconClass = 'fa-brands fa-amazon';
+              else if (platform === 'flipkart') iconClass = 'fa-solid fa-bag-shopping';
+              else if (platform === 'swiggy') iconClass = 'fa-solid fa-bowl-food';
+              else if (platform === 'zomato') iconClass = 'fa-solid fa-utensils';
+              else if (platform === 'bigbasket') iconClass = 'fa-solid fa-basket-shopping';
+              else if (platform === 'bookmyshow') iconClass = 'fa-solid fa-ticket';
+              else if (platform === 'google') iconClass = 'fa-brands fa-google';
+              else if (platform === 'makemytrip') iconClass = 'fa-solid fa-plane-departure';
+              else if (platform === 'oyorooms') iconClass = 'fa-solid fa-hotel';
+              else if (platform === 'nobroker') iconClass = 'fa-solid fa-building';
+
+              storeBadges += `<a href="${url}" target="_blank" rel="noopener noreferrer" class="store-badge ${platform}"><i class="${iconClass}"></i> ${platform.charAt(0).toUpperCase() + platform.slice(1)}</a>`;
+            }
+
+            itemsHtml += `
+              <div style="padding: 1rem 1.25rem; border-bottom: 1px solid #f1f5f9; display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem;">
+                <div style="flex: 1;">
+                  <div style="font-weight: 700; color: #1e293b; font-size: 0.98rem;">${item.name}</div>
+                  <div style="font-size: 0.84rem; color: #64748b; margin-top: 0.2rem; line-height: 1.4;">${item.description || ''}</div>
+                  <div style="display: flex; align-items: center; gap: 0.6rem; margin-top: 0.6rem;">
+                    <span style="font-size: 0.8rem; color: #64748b; font-weight: 600;">Shop / Book on:</span>
+                    <div class="store-badges">${storeBadges || '<span style="font-size: 0.8rem; color: #94a3b8;">Local / Direct</span>'}</div>
+                  </div>
+                </div>
+                <div style="font-weight: 700; font-size: 1.05rem; color: #1e40af; white-space: nowrap;">
+                  ₹${price.toLocaleString('en-IN', {minimumFractionDigits: 2})}
+                </div>
+              </div>
+            `;
+          });
+
+          catCard.innerHTML = `
+            <div class="category-header">
+              <div class="category-name">
+                <i class="fa-solid fa-champagne-glasses" style="color: #2563eb;"></i> ${catName}
+              </div>
+              <div class="category-allocation">Allocation: ₹${catAlloc.toLocaleString('en-IN', {minimumFractionDigits: 2})}</div>
+            </div>
+            <div>${itemsHtml}</div>
+          `;
+
+          categoriesContainer.appendChild(catCard);
+        });
+      }
+
+      partyTotalDisplay.textContent = `₹${total.toLocaleString('en-IN', {minimumFractionDigits: 2})}`;
+      partyAllocatedDisplay.textContent = `₹${totalAllocated.toLocaleString('en-IN', {minimumFractionDigits: 2})}`;
+      partyRemainingDisplay.textContent = `₹${remaining.toLocaleString('en-IN', {minimumFractionDigits: 2})}`;
+
+      // Venue Suggestions
+      if (data.venue_suggestions && data.venue_suggestions.length > 0) {
+        venueSuggestionsCard.style.display = 'block';
+        let vHtml = '';
+        data.venue_suggestions.forEach(v => {
+          const links = v.search_links || {};
+          let vBadges = '';
+          for (const [p, u] of Object.entries(links)) {
+            vBadges += `<a href="${u}" target="_blank" rel="noopener noreferrer" class="store-badge ${p}"><i class="fa-solid fa-arrow-up-right-from-square"></i> ${p.toUpperCase()}</a>`;
+          }
+
+          vHtml += `
+            <div style="padding: 0.85rem; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: var(--radius-sm); margin-bottom: 0.85rem;">
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <div style="font-weight: 700; color: #1e293b;">${v.name}</div>
+                <div style="font-weight: 700; color: #1e40af;">₹${Number(v.estimated_cost || 0).toLocaleString('en-IN', {minimumFractionDigits: 2})}</div>
+              </div>
+              <div style="font-size: 0.83rem; color: #64748b; margin-top: 0.2rem;">
+                Type: <strong>${v.type || 'Standard'}</strong> &bull; Capacity: <strong>${v.capacity || 'Flexible'} guests</strong>
+              </div>
+              <div style="margin-top: 0.6rem; display: flex; align-items: center; gap: 0.5rem;">
+                <span style="font-size: 0.8rem; color: #64748b; font-weight: 600;">Check availability:</span>
+                <div class="store-badges">${vBadges}</div>
+              </div>
+            </div>
+          `;
+        });
+        venueListContent.innerHTML = vHtml;
+      } else {
+        venueSuggestionsCard.style.display = 'none';
+      }
+
+      // Additional Suggestions
+      if (data.additional_suggestions && data.additional_suggestions.length > 0) {
+        suggestionsList.innerHTML = '';
+        data.additional_suggestions.forEach(s => {
+          const li = document.createElement('li');
+          li.textContent = s;
+          suggestionsList.appendChild(li);
+        });
+      }
+    }
+  </script>
+
+</body>
+</html>

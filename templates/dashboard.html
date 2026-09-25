@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - PocketSmart AI</title>
+  <link rel="stylesheet" href="/static/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+  <!-- Top Navbar -->
+  <nav class="navbar">
+    <a href="/dashboard" class="nav-brand">
+      <span class="brand-icon"><i class="fa-solid fa-wallet"></i></span>
+      PocketSmart
+    </a>
+    <ul class="nav-links">
+      <li><a href="/home-planner"><i class="fa-solid fa-house"></i> Home Planner</a></li>
+      <li><a href="/party-planner"><i class="fa-solid fa-users"></i> Party Planner</a></li>
+      <li><a href="/jewelry-planner"><i class="fa-solid fa-gem"></i> Jewelry Planner</a></li>
+      <li><a href="/history"><i class="fa-solid fa-clock-rotate-left"></i> History</a></li>
+      <li><a href="/logout" style="color: #f87171;"><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</a></li>
+    </ul>
+  </nav>
+
+  <!-- Welcome Hero Banner -->
+  <section class="planner-banner">
+    <div style="max-width: 800px; margin: 0 auto;">
+      <h1>Welcome, {{ user.username }}!</h1>
+      <p>Choose a budget planner to get started with your personalized financial planning experience</p>
+    </div>
+  </section>
+
+  <!-- Main Dashboard Content -->
+  <main class="main-content">
+
+    <!-- 3 Budget Planners Grid -->
+    <div class="planners-grid" style="margin-bottom: 2.5rem;">
+      
+      <!-- Home Budget Planner -->
+      <div class="planner-card">
+        <div class="planner-card-banner home">
+          <i class="fa-solid fa-couch"></i>
+        </div>
+        <div class="planner-card-body">
+          <div>
+            <h3 class="planner-card-title"><i class="fa-solid fa-house" style="color: #2563eb;"></i> Home Budget Planner</h3>
+            <p class="planner-card-desc">
+              Plan your interior design budget efficiently with AI-powered recommendations for furniture, lighting, and more.
+            </p>
+          </div>
+          <a href="/home-planner" class="btn-card-action">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <!-- Party Budget Planner -->
+      <div class="planner-card">
+        <div class="planner-card-banner party">
+          <i class="fa-solid fa-champagne-glasses"></i>
+        </div>
+        <div class="planner-card-body">
+          <div>
+            <h3 class="planner-card-title"><i class="fa-solid fa-users" style="color: #db2777;"></i> Party Budget Planner</h3>
+            <p class="planner-card-desc">
+              Plan your perfect event with budget allocations for venue, catering, decorations, and entertainment.
+            </p>
+          </div>
+          <a href="/party-planner" class="btn-card-action">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <!-- Jewelry Budget Planner -->
+      <div class="planner-card">
+        <div class="planner-card-banner jewelry">
+          <i class="fa-solid fa-gem"></i>
+        </div>
+        <div class="planner-card-body">
+          <div>
+            <h3 class="planner-card-title"><i class="fa-solid fa-ring" style="color: #6366f1;"></i> Jewelry Budget Planner</h3>
+            <p class="planner-card-desc">
+              Find the ideal jewelry pieces for any occasion that match your outfit and stay within your budget.
+            </p>
+          </div>
+          <a href="/jewelry-planner" class="btn-card-action">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Center Callout Button -->
+    <div style="text-align: center; margin-bottom: 2.8rem;">
+      <a href="/history" class="history-banner-btn">
+        <i class="fa-solid fa-clock-rotate-left"></i> View All Recommendation History
+      </a>
+    </div>
+
+    <!-- Recent Activity Card -->
+    <div class="form-card" style="padding: 1.8rem 2rem;">
+      <div class="section-header" style="margin-bottom: 1.5rem;">
+        <div class="section-icon" style="background: #e0f2fe; color: #0284c7;">
+          <i class="fa-solid fa-chart-line"></i>
+        </div>
+        <div class="section-title">Recent Activity</div>
+      </div>
+
+      {% if recent_history and recent_history|length > 0 %}
+        <div style="display: flex; flex-direction: column; gap: 1rem;">
+          {% for item in recent_history %}
+            <div style="display: flex; align-items: center; justify-content: space-between; padding: 1rem 1.25rem; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: var(--radius-sm); transition: var(--transition);">
+              <div style="display: flex; align-items: center; gap: 1rem;">
+                <div style="width: 44px; height: 44px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.1rem;
+                  {% if item.recommendation_type == 'home' %}background: #dbeafe; color: #1e40af;
+                  {% elif item.recommendation_type == 'party' %}background: #fce7f3; color: #9d174d;
+                  {% else %}background: #ede9fe; color: #5b21b6;{% endif %}">
+                  {% if item.recommendation_type == 'home' %}<i class="fa-solid fa-house"></i>
+                  {% elif item.recommendation_type == 'party' %}<i class="fa-solid fa-users"></i>
+                  {% else %}<i class="fa-solid fa-gem"></i>{% endif %}
+                </div>
+                <div>
+                  <div style="font-weight: 700; color: #1e293b; font-size: 0.98rem; text-transform: capitalize;">
+                    {{ item.recommendation_type }} Budget Plan
+                  </div>
+                  <div style="font-size: 0.83rem; color: #64748b; margin-top: 0.15rem;">
+                    {{ item.result_summary }} &bull; Created on {{ item.timestamp }}
+                  </div>
+                </div>
+              </div>
+              <a href="/history" style="padding: 0.45rem 1rem; background: #ffffff; border: 1px solid #cbd5e1; border-radius: var(--radius-sm); font-size: 0.85rem; font-weight: 600; color: #2563eb; text-decoration: none;">
+                View Details
+              </a>
+            </div>
+          {% endfor %}
+        </div>
+      {% else %}
+        <div style="text-align: center; padding: 2rem; color: #64748b;">
+          <i class="fa-solid fa-folder-open" style="font-size: 2.2rem; color: #cbd5e1; margin-bottom: 0.6rem;"></i>
+          <p>No recent activity yet. Select a planner above to create your first budget plan!</p>
+        </div>
+      {% endif %}
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer style="background: #0f172a; color: #94a3b8; text-align: center; padding: 1.5rem; font-size: 0.85rem; margin-top: auto;">
+    &copy; 2026 PocketSmart. All rights reserved.
+  </footer>
+
+</body>
+</html>
