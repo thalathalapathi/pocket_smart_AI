@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In - PocketSmart AI</title>
+  <link rel="stylesheet" href="/static/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body style="background: #f8fafc; display: flex; align-items: center; justify-content: center; min-height: 100vh;">
+
+  <div class="auth-container">
+    <div class="auth-card">
+      <a href="/" style="text-decoration: none;">
+        <div class="auth-brand">
+          <i class="fa-solid fa-wallet" style="color: #2563eb; font-size: 1.8rem;"></i> PocketSmart
+        </div>
+      </a>
+      <div class="auth-subtitle">AI-Powered Budget Planning</div>
+
+      <h2 class="auth-form-title">Welcome Back</h2>
+
+      {% if error %}
+        <div style="background: #fee2e2; border: 1px solid #fca5a5; color: #dc2626; padding: 0.75rem 1rem; border-radius: var(--radius-sm); font-size: 0.88rem; margin-bottom: 1.25rem;">
+          <i class="fa-solid fa-circle-exclamation"></i> {{ error }}
+        </div>
+      {% endif %}
+
+      <form action="/login" method="POST">
+        <div class="auth-input-wrapper">
+          <i class="fa-solid fa-user input-icon"></i>
+          <input type="text" name="username" class="auth-input" placeholder="Enter your username" required autocomplete="username" value="sai">
+        </div>
+
+        <div class="auth-input-wrapper">
+          <i class="fa-solid fa-lock input-icon"></i>
+          <input type="password" name="password" class="auth-input" placeholder="Enter your password" required autocomplete="current-password" value="password123">
+        </div>
+
+        <div style="display: flex; justify-content: flex-end; margin-bottom: 1.25rem;">
+          <a href="#" style="font-size: 0.85rem; color: #2563eb; text-decoration: none;">Forgot Password?</a>
+        </div>
+
+        <button type="submit" class="auth-btn">
+          Sign In <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </form>
+
+      <div class="auth-footer-text">
+        Don't have an account? <a href="/register">Create Account</a>
+      </div>
+
+      <div style="margin-top: 1.5rem; padding-top: 1.2rem; border-top: 1px solid #e2e8f0; font-size: 0.82rem; color: #64748b;">
+        Quick demo login: username <strong>sai</strong> | password <strong>password123</strong>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
